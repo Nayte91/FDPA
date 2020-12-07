@@ -1,0 +1,5 @@
+fdpa.freelooser.net:80 {
+    root * /app
+    encode gzip
+    file_server
+}
