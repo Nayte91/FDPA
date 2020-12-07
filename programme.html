@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/calendar.css" />
+    <title>Accueil - Les films de plein air</title>
+</head>
+
+<body>
+	<!-- Header et barre de navigation -->
+	<header class="navbar navbar-expand-md">
+	  	<a class="navbar-brand" href="accueil.html">
+		    <img src="assets/img/logo.png" height="50" class="d-inline-block align-top" alt="Films de plein air logo" />
+	  	</a>
+	  	<h1 class="d-md-none" style="font-size:10vw;">Programme</h1>
+	  	<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	<nav class="collapse navbar-collapse navbar-nav" id="navbarNavAltMarkup">  
+				<a class="nav-item nav-link bleu-enfant" href="accueil.html">Accueil</a>
+				<a class="nav-item nav-link bleu-enfant" id="active" href="programme.html">Programme <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link bleu-enfant" href="festival.html">Festival</a>
+				<a class="nav-item nav-link bleu-enfant" href="galerie.html">Galerie</a>
+				<a class="nav-item nav-link bleu-enfant" href="#contactmodal" data-toggle="modal" data-target="#contactmodal">Contact</a>
+	 	</nav>
+    </header>
+
+    <main class="container-fluid">
+    	<div>
+    		<h1 class="d-none d-md-block text-center">Festival des films de plein air - du 5 au 8 août - Parc Monceau, Paris</h1>
+    		<h1 class="d-md-none text-center">Festival des films de plein air</h1>
+    		<h1 class="d-md-none text-center">du 5 au 8 août</h1>
+    		<h1 class="d-md-none text-center"><a href="https://goo.gl/maps/RDEEhbKsbVJ3jzmq8">Parc Monceau, Paris</a></h1>
+        </div>
+
+        <div class="row justify-content-around p-2">
+	    	<section class="col-12 col-lg-3">
+	    		<h2 class="text-center">Programme 2019</h2>
+    			<div class="border creme">
+    				<div class="mt-3">
+                        <div class="row no-gutters justify-content-center">
+                            <div class="col-2">
+                                <a href="projection.html"><img src="assets/img/films/fightclub.jpg" class="card-img" alt="Fight club"></a>
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <p class="card-text text-center"><time datetime="2019-08-05 19:00">Lundi 5 août 2019 - 18h</time></p>
+                                    <p class="card-text text-center"><a href="projection.html">Fight club - de David Fincher</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <div class="row no-gutters justify-content-center">
+                            <div class="col-2">
+                                <a href="projection.html"><img src="assets/img/films/99fr.jpg" class="card-img" alt="99 francs"></a>
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <p class="card-text text-center"><time datetime="2019-08-05 21:00">Lundi 5 août 2019 - 21h</time></p>
+                                    <p class="card-text text-center"><a href="projection.html">99 francs - Jan Kounen</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 mb-3">
+                        <div class="row no-gutters justify-content-center">
+                            <div class="col-2">
+                                <a href="projection.html"><img src="assets/img/films/jeuxdenfants.jpg" class="card-img" alt="Jeux d'enfants"></a>
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <p class="card-text text-center"><time datetime="2019-08-05 23:00">Lundi 5 août 2019 - 23h</time></p>
+                                    <p class="card-text text-center"><a href="projection.html">Jeux d'enfants - Yann Samuell</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    			</div>
+	    	</section>
+
+    		<aside class="col-12 col-lg-3 justify-content-center">
+    			<h2 class="text-center">Calendrier 2019</h2>
+    			<img src="assets/img/calendar.jpg" class="img-fluid mx-3" alt="Calendrier 2019">
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+	<footer class="footer py-3 d-inline-flex justify-content-around text-light">
+		<div>Mentions légales</div>
+		<div>© 2019 Copyright :
+			<a href="https://mdbootstrap.com/education/bootstrap/">lesfilmsdepleinair.com</a>
+		</div>
+		<div>Politique de confidentialité</div>
+	</footer>
+
+	<!-- Modal de contact -->
+	<div class="modal fade contactmodal" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="formulaire de contact" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content text-light">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Contactez-nous !</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					<p>Une question ? Une proposition ? Une remarque ? L'équipe des films de plein air prendra connaissance de votre message avec grand plaisir et dans les plus brefs délais.</p>
+					<form>
+						<div class="form-group form-row justify-content-around">
+							<label for="recipient-name" class="col-form-label col-4">Votre nom* :</label>
+							<input type="text" class="form-control col-6" id="contact-name" aria-describedby="prénom et nom" placeholder="Prénom - Nom">
+						</div>
+						<div class="form-group form-row justify-content-around">
+							<label for="recipient-mail" class="col-form-label col-4">Votre adresse* :</label>
+							<input type="email" class="form-control col-6" id="contact-address" aria-describedby="adresse mail" placeholder="Adresse mail">
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="col-form-label">Votre message* :</label>
+							<textarea class="form-control" id="contact-message" aria-describedby="message" placeholder="Votre texte"></textarea>
+						</div>
+						<div class="form-group">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+								<label class="form-check-label" for="invalidCheck">En soumettant ce formulaire, j'acccepte que les informations saisies soient exploitée par l'association.</label>
+							</div>
+						</div>
+						<p><small>* Champs obligatoires</small></p>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn text-light" style="background-color: #44318D" data-dismiss="modal">Fermer</button>
+					<button type="submit" class="btn text-light" style="background-color: #b30f70;">Envoyer le message</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+</body>
+</html>

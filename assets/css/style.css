@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'journalregular';
+  src:
+          url('journal.ttf') format('truetype'),
+          url('journal-webfont.woff2') format('woff2'),
+          url('journal-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+main {
+  position: relative;
+  min-height: 780px;
+  background: linear-gradient(to bottom right, #2A1B3D, 75%, #44318D);
+}
+
+.modal-content {
+  position: relative;
+  background: linear-gradient(to bottom left, #8265a7, 30%, #2A1B3D);
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#active {
+  color: #b30f70;
+}
+
+.nav-item.nav-link.bleu-enfant {
+  font-weight: bold;
+  color: #f4f3ef;
+}
+
+.nav-item.nav-link.bleu-enfant:hover {
+  font-weight: bold;
+  color: #b30f70;
+  transition: color 400ms;
+}
+
+h1 {
+  font-family: journalregular;
+  letter-spacing: 2px;
+  color: #A4B3B6;
+  font-size: 3em;
+}
+
+h2 {
+  color: #b30f70;
+}
+
+.navbar, .footer {
+  background-color: #8265a7;
+}
+
+.creme {
+  background-color: rgba(164,179,182, 0.6);
+}
+
+a {
+  color: #44318D;
+  text-decoration: underline
+}
+
+.custom-toggler .navbar-toggler-icon {
+background-image:
+  url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(164,179,182, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+

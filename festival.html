@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Festival - Les films de plein air</title>
+</head>
+
+<body>
+    <!-- Header et barre de navigation -->
+	<header class="navbar navbar-expand-md">
+	  	<a class="navbar-brand" href="accueil.html">
+		    <img src="assets/img/logo.png" height="50" class="d-inline-block align-top" alt="Films de plein air logo" />
+	  	</a>
+	  	<h1 class="d-md-none" style="font-size:10vw;">Festival</h1>
+	  	<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	<nav class="collapse navbar-collapse navbar-nav" id="navbarNavAltMarkup">  
+				<a class="nav-item nav-link bleu-enfant" href="accueil.html">Accueil</a>
+				<a class="nav-item nav-link bleu-enfant" href="programme.html">Programme</a>
+				<a class="nav-item nav-link bleu-enfant" id="active" href="festival.html">Festival <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link bleu-enfant" href="galerie.html">Galerie</a>
+				<a class="nav-item nav-link bleu-enfant" href="#contactmodal" data-toggle="modal" data-target="#contactmodal">Contact</a>
+	 	</nav>
+    </header>
+
+    <main class="container-fluid">
+        <div>
+    		<h1 class="d-none d-md-block text-center">Festival des films de plein air - du 5 au 8 août - Parc Monceau, Paris</h1>
+    		<h1 class="d-md-none text-center">Festival des films de plein air</h1>
+    		<h1 class="d-md-none text-center">du 5 au 8 août</h1>
+    		<h1 class="d-md-none text-center"><a href="https://goo.gl/maps/RDEEhbKsbVJ3jzmq8">Parc Monceau, Paris</a></h1>
+        </div>
+
+    	<div class="row justify-content-around p-2">
+    		<section class="col-12 col-lg-6">
+    			<h2>L'association</h2>
+  				<p class="creme p-3">
+		  			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    			</p>
+    		</section>
+
+            <section class="d-none d-lg-block col-lg-4">
+                <h2>Le parc Monceau</h2>
+                <a href="https://goo.gl/maps/RDEEhbKsbVJ3jzmq8"><img src="assets/img/maps.png" style="height: 250px;" alt="Google maps"></a>
+            </section>
+    	</div>
+
+    	<div class="row justify-content-around p-2">
+    		<section class="col-8 col-lg-2">
+    			<h2 class="text-center">Le bureau</h2>
+    			<ul class="list-group">
+                    <li class="list-group-item d-flex w-100 justify-content-between align-items-center creme">
+                        <p class="mb-1">Jennifer Viala</p>
+                        <small class="text-muted">Présidente</small>
+                    </li>
+                    <li class="list-group-item d-flex w-100 justify-content-between align-items-center creme">
+                        <p class="mb-1">Nicolas Ozoux</p>
+                        <small class="text-muted">Vice-président</small>
+                    </li>
+                    <li class="list-group-item d-flex w-100 justify-content-between align-items-center creme">
+                        <p class="mb-1">Julien Robic</p>
+                        <small class="text-muted">Secrétaire</small>
+                    </li>
+                    <li class="list-group-item d-flex w-100 justify-content-between align-items-center creme">
+                        <p class="mb-1">Chloé Lobre</p>
+                        <small class="text-muted">Trésorière</small>
+                    </li>
+                </ul>
+    		</section>
+
+            <section class="col-8 col-lg-2">
+                <h2 class="text-center">Les membres</h2>
+                <ul class="list-group">
+                    <li class="list-group-item creme">Cyril Lafleur</li>
+                    <li class="list-group-item creme">Ludivine Simon</li>
+                    <li class="list-group-item creme">Annabelle Bralet</li>
+                    <li class="list-group-item creme">Denis Grenouillat</li>
+                    <li class="list-group-item creme">Laure Valée</li>
+                </ul>
+            </section>
+
+    		<section class="col-12 col-lg-5">
+    			<h2 class="text-center">Les photos du festival</h2>
+                <a href="galerie.html"><img src="assets/img/FPA.jpg" class="img-fluid" alt="Responsive image"></a>
+				<p class="text-center"><small class="text-muted"><a href="galerie.html" style="color: #A4B3B6;">Voir toutes les photos...</a></small></p>
+    		</section>
+    	</div>
+    </main>
+
+    <!-- Footer -->
+	<footer class="footer py-3 d-inline-flex justify-content-around text-light">
+		<div>Mentions légales</div>
+		<div>© 2019 Copyright :
+			<a href="https://mdbootstrap.com/education/bootstrap/">lesfilmsdepleinair.com</a>
+		</div>
+		<div>Politique de confidentialité</div>
+	</footer>
+
+	<!-- Modal de contact -->
+	<div class="modal fade contactmodal" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="formulaire de contact" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content text-light">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Contactez-nous !</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					<p>Une question ? Une proposition ? Une remarque ? L'équipe des films de plein air prendra connaissance de votre message avec grand plaisir et dans les plus brefs délais.</p>
+					<form>
+						<div class="form-group form-row justify-content-around">
+							<label for="recipient-name" class="col-form-label col-4">Votre nom* :</label>
+							<input type="text" class="form-control col-6" id="contact-name" aria-describedby="prénom et nom" placeholder="Prénom - Nom">
+						</div>
+						<div class="form-group form-row justify-content-around">
+							<label for="recipient-mail" class="col-form-label col-4">Votre adresse* :</label>
+							<input type="email" class="form-control col-6" id="contact-address" aria-describedby="adresse mail" placeholder="Adresse mail">
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="col-form-label">Votre message* :</label>
+							<textarea class="form-control" id="contact-message" aria-describedby="message" placeholder="Votre texte"></textarea>
+						</div>
+						<div class="form-group">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+								<label class="form-check-label" for="invalidCheck">En soumettant ce formulaire, j'acccepte que les informations saisies soient exploitée par l'association.</label>
+							</div>
+						</div>
+						<p><small>* Champs obligatoires</small></p>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn text-light" style="background-color: #44318D" data-dismiss="modal">Fermer</button>
+					<button type="submit" class="btn text-light" style="background-color: #b30f70;">Envoyer le message</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+</body>
+</html>

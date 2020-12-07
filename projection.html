@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Accueil - Les films de plein air</title>
+</head>
+
+<body>
+	<!-- Header et barre de navigation -->
+	<header class="navbar navbar-expand-md">
+	  	<a class="navbar-brand" href="accueil.html">
+		    <img src="assets/img/logo.png" height="50" class="d-inline-block align-top" alt="Films de plein air logo" />
+	  	</a>
+	  	<h1 class="d-md-none" style="font-size:10vw;">Fight Club</h1>
+	  	<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	<nav class="collapse navbar-collapse navbar-nav" id="navbarNavAltMarkup">  
+				<a class="nav-item nav-link bleu-enfant" href="accueil.html">Accueil </a>
+				<a class="nav-item nav-link bleu-enfant" id="active" href="programme.html">Programme <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link bleu-enfant" href="festival.html">Festival</a>
+				<a class="nav-item nav-link bleu-enfant" href="galerie.html">Galerie</a>
+				<a class="nav-item nav-link bleu-enfant" href="#contactmodal" data-toggle="modal" data-target="#contactmodal">Contact</a>
+	 	</nav>
+    </header>
+
+    <main class="container-fluid">
+       <h2 class="d-none d-sm-block text-center">Fight Club</h2>
+       <div>
+            <h2 class="d-none d-md-block text-center">Diffusion le 05/08/2019 à 18h - VOSTFR - <a href=href="#registermodal" data-toggle="modal" data-target="#registermodal">Préinscription</a></h2>
+            <h2 class="d-md-none text-center">Diffusion le 05/08/2019 à 18h</h2>
+            <h2 class="d-md-none text-center"><a href="#">Préinscription</a></h2>
+	   </div>
+
+        <div class="row justify-content-around align-items-center">
+            <figure class="col-12 col-lg-3">
+                <img src="assets/img/films/fightclub.jpg" class="img-fluid" alt="Affiche Fight Club" />
+            </figure>
+
+            <div class="col-12 col-lg-4">
+                <p class="creme p-3">
+                Le narrateur, sans identité précise, vit seul, travaille seul, dort seul, mange seul ses plateaux-repas pour une personne comme beaucoup d'autres personnes seules qui connaissent la misère humaine, morale et sexuelle. C'est pourquoi il va devenir membre du Fight club, un lieu clandestin ou il va pouvoir retrouver sa virilité, l'échange et la communication. Ce club est dirigé par Tyler Durden, une sorte d'anarchiste entre gourou et philosophe qui prêche l'amour de son prochain. 
+                </p>
+
+                <div class="text-center d-none d-lg-block">
+                    <iframe width="500" height="300" src="http://www.youtube.com/embed/SUXWAEX2jlg?controls=0"></iframe>
+                </div>
+				<h3 class="d-md-none text-center"><a href="https://www.youtube.com/watch?v=SUXWAEX2jlg">Lien vers la Bande-Annonce</a></h3>
+            </div>
+            
+
+            <div class="col-12 col-lg-4 creme p-3">
+                <ul>
+                    <li>Date de sortie : 10 novembre 1999</li>
+                    <li>Producteur : Ross Grayson Bell</li>
+                    <li>Réalisateur : David Fincher</li>
+                    <li>Acteurs : Brad Pitt, Edward Norton, Helena Bonham Carter</li>
+                    <li>Compositeur : The dust brothers</li>
+                    <li>Photographie : Jeff Cronenweth</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+	<footer class="footer py-3 d-inline-flex justify-content-around text-light">
+		<div>Mentions légales</div>
+		<div>© 2019 Copyright :
+			<a href="https://mdbootstrap.com/education/bootstrap/">lesfilmsdepleinair.com</a>
+		</div>
+		<div>Politique de confidentialité</div>
+	</footer>
+
+	<!-- Modal de contact -->
+	<div class="modal fade contactmodal" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="formulaire de contact" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content text-light">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Contactez-nous !</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					<p>Une question ? Une proposition ? Une remarque ? L'équipe des films de plein air prendra connaissance de votre message avec grand plaisir et dans les plus brefs délais.</p>
+					<form>
+						<div class="form-group form-row justify-content-around">
+							<label for="recipient-name" class="col-form-label col-4">Votre nom* :</label>
+							<input type="text" class="form-control col-6" id="contact-name" aria-describedby="prénom et nom" placeholder="Prénom - Nom">
+						</div>
+						<div class="form-group form-row justify-content-around">
+							<label for="recipient-mail" class="col-form-label col-4">Votre adresse* :</label>
+							<input type="email" class="form-control col-6" id="contact-address" aria-describedby="adresse mail" placeholder="Adresse mail">
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="col-form-label">Votre message* :</label>
+							<textarea class="form-control" id="contact-message" aria-describedby="message" placeholder="Votre texte"></textarea>
+						</div>
+						<div class="form-group">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+								<label class="form-check-label" for="invalidCheck">En soumettant ce formulaire, j'acccepte que les informations saisies soient exploitée par l'association.</label>
+							</div>
+						</div>
+						<p><small>* Champs obligatoires</small></p>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn text-light" style="background-color: #44318D" data-dismiss="modal">Fermer</button>
+					<button type="submit" class="btn text-light" style="background-color: #b30f70;">Envoyer le message</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal de préinscription -->
+	<div class="modal fade registermodal" id="registermodal" tabindex="-1" role="dialog" aria-labelledby="formulaire de préinscription" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content text-light">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Je me préinscris !</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					<p>L'accès aux projections est totalement gratuit et ouvert à tous. Afin d'estimer le nombre de spectateurs chaque soir et ainsi proposer les services adéquats, merci de vous pré-inscrire.</p>
+					<h3 class="text-center pb-3">Séance du 05/08/2019 à 18h</h3>
+					<form>
+						<div class="form-group form-row justify-content-between mt-2">
+							<label for="recipient-name" class="col-form-label col-4">Votre nom* :</label>
+							<input type="text" class="form-control col-6" id="contact-name" aria-describedby="prénom et nom" placeholder="Prénom - Nom">
+						</div>
+						<div class="form-group form-row justify-content-between">
+							<label for="places" class="col-form-label col-4">Nombre de places* :</label>
+							<select class="form-control col-2" id="places">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+								<label class="form-check-label" for="invalidCheck">En soumettant ce formulaire, j'acccepte que les informations saisies soient exploitée par l'association.</label>
+							</div>
+						</div>
+						<p><small>* Champs obligatoires</small></p>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn text-light" style="background-color: #44318D" data-dismiss="modal">Fermer</button>
+					<button type="submit" class="btn text-light" style="background-color: #b30f70;">Envoyer le message</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+</body>
+</html>
