@@ -11,7 +11,7 @@ services:
       - caddy_config:/config
     labels:
       traefik.enable: true
-      traefik.http.routers.fdpa.rule: Host(`fdpa.freelooser.net`)
+      traefik.http.routers.fdpa.rule: Host(`fdpa.anagraph.org`)
       traefik.http.routers.fdpa.entrypoints: web
 
 volumes:
